@@ -1,0 +1,17 @@
+.flex-direction {
+  .my-grid {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+
+    // showcase
+    // flex-direction: column;
+    // flex-direction: row;
+  }
+
+  .my-grid-item {
+    background-color: burlywood;
+    padding: 20px;
+    flex-grow: 1;
+  }
+}

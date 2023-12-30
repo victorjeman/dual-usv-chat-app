@@ -1,0 +1,18 @@
+.box-model {
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: #f5f5f5;
+    border: 20px solid #292323;
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .box {
+    box-sizing: content-box;
+  }
+
+  .box {
+    /* box-sizing: border-box; */
+  }
+}

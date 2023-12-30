@@ -1,0 +1,17 @@
+.selectors {
+  .my-class {
+    background-color: red;
+  }
+
+  #my-id {
+    background-color: green;
+  }
+
+  [data-my-attribute] {
+    background-color: yellow;
+  }
+
+  .my-first-letter::first-letter {
+    font-size: 2em;
+  }
+}
