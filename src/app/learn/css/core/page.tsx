@@ -17,29 +17,31 @@ export default function CoreCssPage() {
     <section>
       <LearnPageTitle>Learn with Victor - CSS - Core concepts</LearnPageTitle>
 
-      <Styling />
+      <div className='[&>*:nth-child(2n)]:bg-gray-100'>
+        <Styling />
 
-      <BoxModel />
+        <BoxModel />
 
-      <Selectors />
+        <Selectors />
 
-      <Cascade />
+        <Cascade />
 
-      <Specificity />
+        <Specificity />
 
-      <Inheritance />
+        <Inheritance />
 
-      <Color />
+        <Color />
 
-      <SizingUnits />
+        <SizingUnits />
 
-      <Spacing />
+        <Spacing />
 
-      <ZIndex />
+        <ZIndex />
 
-      <Overflow />
+        <Overflow />
 
-      <Typography />
+        <Typography />
+      </div>
     </section>
   )
 }

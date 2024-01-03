@@ -1,27 +1,21 @@
 import { LearnSection } from '@/app/learn/learn-components/learn-section '
+import { LearnSectionTitle } from '@/app/learn/learn-components/learn-section-title '
+import { LearnImage } from '@/app/learn/learn-components/learn-image '
 
-import './styling.css'
-import './styling.scss'
-import style from './styling.module.scss'
+import learnImg from './styling.png'
+import { LearnPlayground } from '@/app/learn/learn-components/learn-playground '
+import { StylingPlay } from '@/app/learn/css/core/styling/styling-play '
 
 export const Styling = () => {
   return (
     <LearnSection>
-      <div className='grid grid-cols-5 gap-4 text-center'>
-        <div className='box'>Box 1</div>
+      <LearnSectionTitle>Styling</LearnSectionTitle>
 
-        <div className='box-wrapper'>
-          <div className='box'>Box 2</div>
-        </div>
+      <LearnImage src={learnImg} />
 
-        <div className={style.box}>Box 3</div>
-
-        <div className='box' style={{ backgroundColor: 'green' }}>
-          Box 4
-        </div>
-
-        <div className='box'>Box 5</div>
-      </div>
+      <LearnPlayground>
+        <StylingPlay />
+      </LearnPlayground>
     </LearnSection>
   )
 }

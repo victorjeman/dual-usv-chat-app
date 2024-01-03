@@ -8,7 +8,12 @@ import { SelectorsPlay } from '@/app/learn/css/core/selectors/selectors-play '
 import learnImg from './selectors.png'
 
 const resources = [
-  { title: 'Cheat Sheet', href: 'https://welcm.uk/downloads/CSS-Selectors-Cheatsheet.pdf' },
+  { title: 'Selectors | web.dev', href: 'https://web.dev/learn/css/selectors' },
+  {
+    title: 'Cheat Sheet 1',
+    href: 'https://appletree.or.kr/quick_reference_cards/CSS/CSS%20selectors%20cheatsheet.pdf',
+  },
+  { title: 'Cheat Sheet 2', href: 'https://welcm.uk/downloads/CSS-Selectors-Cheatsheet.pdf' },
 ]
 
 export const Selectors = () => {

@@ -1,7 +1,7 @@
 type Props = {
-  children: React.ReactNode;
-};
+  children: React.ReactNode
+}
 
 export const LearnPageTitle = ({ children }: Props) => {
-  return <h1 className="text-4xl text-center my-7">{children}</h1>;
-};
+  return <h1 className='my-7 text-center text-4xl'>{children}</h1>
+}

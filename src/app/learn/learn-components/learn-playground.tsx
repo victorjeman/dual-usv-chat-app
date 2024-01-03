@@ -4,9 +4,9 @@ type Props = {
 
 export const LearnPlayground = ({ children }: Props) => {
   return (
-    <div>
-      <h3 className='font-display mb-6 bg-slate-100 p-2 text-center text-xl tracking-tight text-slate-900'>
-        Playground
+    <div className='mt-16'>
+      <h3 className='mb-6 border-t-2 p-2 pt-6 text-center text-xl font-semibold tracking-tight text-slate-900'>
+        [ Playground ]
       </h3>
       {children}
     </div>

@@ -8,6 +8,7 @@ import learnImg from './specificity.png'
 
 const resources = [
   { title: 'Specificity | web.dev', href: 'https://web.dev/learn/css/specificity' },
+  { title: 'Specificity Calculator', href: 'https://specificity.keegan.st/' },
 ]
 
 export const Specificity = () => {

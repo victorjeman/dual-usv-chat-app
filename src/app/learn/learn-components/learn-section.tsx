@@ -4,8 +4,8 @@ type Props = {
 
 export const LearnSection = ({ children }: Props) => {
   return (
-    <section className='mx-6 mb-20 border-4 border-slate-100 p-6'>
-      <div className='mx-auto max-w-screen-md'>{children}</div>
+    <section className='p-x-6 border-b-2 border-gray-200 py-20'>
+      <div className='mx-auto max-w-screen-lg'>{children}</div>
     </section>
   )
 }
