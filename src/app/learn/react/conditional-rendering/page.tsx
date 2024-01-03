@@ -1,9 +1,10 @@
 import { LearnPageTitle } from '@/app/learn/learn-components/learn-page-title '
 import { LearnSection } from '@/app/learn/learn-components/learn-section '
 import { LearnSectionTitle } from '@/app/learn/learn-components/learn-section-title '
-import { ConditionalRendering1 } from '@/app/learn/react/conditional-rendering/components/conditional-rendering-1 '
-import { ConditionalRendering2 } from '@/app/learn/react/conditional-rendering/components/conditional-rendering-2 '
-import { ConditionalRendering3 } from '@/app/learn/react/conditional-rendering/components/conditional-rendering-3 '
+
+import { ConditionalRendering1 } from '@/app/learn/react/conditional-rendering/learn/conditional-rendering-1 '
+import { ConditionalRendering2 } from '@/app/learn/react/conditional-rendering/learn/conditional-rendering-2 '
+import { ConditionalRendering3 } from '@/app/learn/react/conditional-rendering/learn/conditional-rendering-3 '
 
 export default function ConditionalRenderingPage() {
   return (

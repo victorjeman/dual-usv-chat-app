@@ -1,6 +1,7 @@
 import { LearnPageTitle } from '@/app/learn/learn-components/learn-page-title '
 import { LearnSection } from '@/app/learn/learn-components/learn-section '
-import { MyComponent3 } from '@/app/learn/react/components/my-component-3 '
+
+import { MyComponent3 } from '@/app/learn/react/components/learn/my-component-3 '
 
 function MyComponent1() {
   return <div>My Component 1</div>
