@@ -7,7 +7,7 @@ import { Child1 } from '@/app/learn/react/rendering/components/child-1 '
 import { Child2 } from '@/app/learn/react/rendering/components/child-2 '
 import { Child3 } from '@/app/learn/react/rendering/components/child-3 '
 
-export const Rendering2Play = () => {
+export const Rendering1 = () => {
   const [timer, setTimer] = useState(0)
 
   useEffect(() => {
@@ -20,9 +20,9 @@ export const Rendering2Play = () => {
 
   return (
     <Container>
-      <Child1 />
+      <Child1 timer={timer} />
 
-      <Child2 />
+      <Child2 timer={timer} />
 
       <Child3 />
     </Container>

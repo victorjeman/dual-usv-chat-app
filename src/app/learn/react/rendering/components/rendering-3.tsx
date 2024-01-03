@@ -31,7 +31,7 @@ const ContainerWithState = () => {
   )
 }
 
-export const Rendering3Play = () => {
+export const Rendering3 = () => {
   return (
     <Container cols={2}>
       <ContainerWithState />
