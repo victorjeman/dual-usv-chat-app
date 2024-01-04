@@ -3,10 +3,10 @@ import { LearnPageTitle } from '@/app/learn/learn-components/learn-page-title '
 import { LearnSection } from '@/app/learn/learn-components/learn-section '
 import { LearnSectionTitle } from '@/app/learn/learn-components/learn-section-title '
 
-import { List1 } from '@/app/learn/react/list/learn/list-1 '
-import { List2 } from '@/app/learn/react/list/learn/list-2 '
-import { List3 } from '@/app/learn/react/list/learn/list-3 '
-import { List4 } from '@/app/learn/react/list/learn/list-4 '
+import { List1 } from '@/app/learn/react/lists/learn/list-1 '
+import { List2 } from '@/app/learn/react/lists/learn/list-2 '
+import { List3 } from '@/app/learn/react/lists/learn/list-3 '
+import { List4 } from '@/app/learn/react/lists/learn/list-4 '
 
 export default function ListsPage() {
   return (

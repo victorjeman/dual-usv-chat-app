@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import { Person } from '@/app/learn/react/list/learn/list-types '
+import { Person } from '@/app/learn/react/lists/learn/list-types '
 
 type Props = {
   person: Person

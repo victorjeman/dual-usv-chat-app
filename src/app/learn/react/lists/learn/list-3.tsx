@@ -1,5 +1,5 @@
-import { ListThumbnail } from '@/app/learn/react/list/learn/list-thumbnail '
-import { listPeople } from '@/app/learn/react/list/learn/list-people '
+import { ListThumbnail } from '@/app/learn/react/lists/learn/list-thumbnail '
+import { listPeople } from '@/app/learn/react/lists/learn/list-people '
 
 // It's not a good idea to use index as a key, especially if the list is dynamic
 export const List3 = () => {

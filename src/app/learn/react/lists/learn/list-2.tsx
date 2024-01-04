@@ -3,9 +3,9 @@
 import { useEffect, useState } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 
-import { ListThumbnail } from '@/app/learn/react/list/learn/list-thumbnail '
-import { listPeople } from '@/app/learn/react/list/learn/list-people '
-import { Person, PersonWithKey } from '@/app/learn/react/list/learn/list-types '
+import { ListThumbnail } from '@/app/learn/react/lists/learn/list-thumbnail '
+import { listPeople } from '@/app/learn/react/lists/learn/list-people '
+import { Person, PersonWithKey } from '@/app/learn/react/lists/learn/list-types '
 
 // Imagine this is an API call that takes a while to return
 const getPeopleFromAPI = async () => {
