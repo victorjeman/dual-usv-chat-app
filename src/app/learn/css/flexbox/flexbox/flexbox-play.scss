@@ -1,7 +1,7 @@
 .flexbox {
   .my-grid {
-    display: flex;
-    gap: 10px;
+    // display: flex;
+    // gap: 10px;
     text-align: center;
     min-height: 300px;
   }
@@ -12,14 +12,14 @@
   }
 
   .my-grid-item-1 {
-    flex-grow: 3;
+    // flex-grow: 3;
   }
 
   .my-grid-item-2 {
-    flex-grow: 2;
+    // flex-grow: 2;
   }
 
   .my-grid-item-3 {
-    flex-grow: 1;
+    // flex-grow: 1;
   }
 }

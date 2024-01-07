@@ -2,7 +2,7 @@ import './align-items-play.scss'
 
 export const AlignItemsPlay = () => {
   return (
-    <section className='align-items-container'>
+    <section className='align-items-play'>
       <div className='my-grid'>
         <div className='my-grid-item my-grid-item-1'>1</div>
         <div className='my-grid-item my-grid-item-2'>2</div>

@@ -1,47 +1,43 @@
-import { Styling } from '@/app/learn/css/core/styling/styling '
-import { BoxModel } from '@/app/learn/css/core/box-model/box-model '
-import { Selectors } from '@/app/learn/css/core/selectors/selectors '
-import { LearnPageTitle } from '@/app/learn/learn-components/learn-page-title '
-import { Spacing } from '@/app/learn/css/core/spacing/spacing '
-import { Cascade } from '@/app/learn/css/core/cascade/cascade '
-import { Specificity } from '@/app/learn/css/core/specificity/specificity '
-import { Inheritance } from '@/app/learn/css/core/inheritance/inheritance '
-import { Color } from '@/app/learn/css/core/color/color '
-import { SizingUnits } from '@/app/learn/css/core/sizing-units/sizing-units '
-import { ZIndex } from '@/app/learn/css/core/z-index/z-index '
-import { Overflow } from '@/app/learn/css/core/overflow/overflow '
-import { Typography } from '@/app/learn/css/core/typography/typography '
+import { LearnPage } from '@/app/learn/learn-components/learn-page'
+import { Styling } from '@/app/learn/css/core/styling/styling'
+import { BoxModel } from '@/app/learn/css/core/box-model/box-model'
+import { Selectors } from '@/app/learn/css/core/selectors/selectors'
+import { Spacing } from '@/app/learn/css/core/spacing/spacing'
+import { Cascade } from '@/app/learn/css/core/cascade/cascade'
+import { Specificity } from '@/app/learn/css/core/specificity/specificity'
+import { Inheritance } from '@/app/learn/css/core/inheritance/inheritance'
+import { Color } from '@/app/learn/css/core/color/color'
+import { SizingUnits } from '@/app/learn/css/core/sizing-units/sizing-units'
+import { ZIndex } from '@/app/learn/css/core/z-index/z-index'
+import { Overflow } from '@/app/learn/css/core/overflow/overflow'
+import { Typography } from '@/app/learn/css/core/typography/typography'
 
-export default function CoreCssPage() {
+export default function CssCorePage() {
   return (
-    <section>
-      <LearnPageTitle>Learn with Victor - CSS - Core concepts</LearnPageTitle>
+    <LearnPage title='CSS - Core concepts'>
+      <Styling />
 
-      <div className='[&>*:nth-child(2n)]:bg-gray-100'>
-        <Styling />
+      <BoxModel />
 
-        <BoxModel />
+      <Selectors />
 
-        <Selectors />
+      <Cascade />
 
-        <Cascade />
+      <Specificity />
 
-        <Specificity />
+      <Inheritance />
 
-        <Inheritance />
+      <Color />
 
-        <Color />
+      <SizingUnits />
 
-        <SizingUnits />
+      <Spacing />
 
-        <Spacing />
+      <ZIndex />
 
-        <ZIndex />
+      <Overflow />
 
-        <Overflow />
-
-        <Typography />
-      </div>
-    </section>
+      <Typography />
+    </LearnPage>
   )
 }

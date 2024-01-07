@@ -1,14 +1,15 @@
-import { LearnSection } from "@/app/learn/learn-components/learn-section ";
-import { LearnImage } from "@/app/learn/learn-components/learn-image ";
+import { LearnSection } from '@/app/learn/learn-components/learn-section'
+import { LearnImage } from '@/app/learn/learn-components/learn-image'
+import { Question3Play } from '@/app/learn/html/practice/question-3/question-3-play'
 
-import question3DesignImg from "./question-3.png";
+import designImg from './question-3.png'
 
 export const Question3 = () => {
   return (
     <LearnSection>
-      <LearnImage src={question3DesignImg} />
+      <LearnImage src={designImg} />
 
-      {/* START SEMANTIC HTML HERE */}
+      <Question3Play />
     </LearnSection>
-  );
-};
+  )
+}

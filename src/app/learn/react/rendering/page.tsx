@@ -3,9 +3,9 @@ import { LearnPageTitle } from '@/app/learn/learn-components/learn-page-title '
 import { LearnSection } from '@/app/learn/learn-components/learn-section '
 import { LearnSectionTitle } from '@/app/learn/learn-components/learn-section-title '
 
-import { Rendering1 } from '@/app/learn/react/rendering/components/rendering-1 '
-import { Rendering2 } from '@/app/learn/react/rendering/components/rendering-2 '
-import { Rendering3 } from '@/app/learn/react/rendering/components/rendering-3 '
+import { Rendering1 } from '@/app/learn/react/rendering/learn/rendering-1 '
+import { Rendering2 } from '@/app/learn/react/rendering/learn/rendering-2 '
+import { Rendering3 } from '@/app/learn/react/rendering/learn/rendering-3 '
 
 export default function RenderingPage() {
   return (

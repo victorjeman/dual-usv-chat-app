@@ -26,7 +26,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
 
       <body className={inter.className}>
-        <MantineProvider theme={theme}>{children}</MantineProvider>
+        <MantineProvider theme={theme}>
+          <main>{children}</main>
+        </MantineProvider>
       </body>
     </html>
   )

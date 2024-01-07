@@ -1,6 +1,7 @@
-import { LearnPageTitle } from '@/app/learn/learn-components/learn-page-title '
-import { LearnSectionTitle } from '@/app/learn/learn-components/learn-section-title '
 import Link from 'next/link'
+
+import { LearnPageTitle } from '@/app/learn/learn-components/learn-page-title'
+import { LearnSectionTitle } from '@/app/learn/learn-components/learn-section-title'
 
 const html = [
   {
@@ -43,6 +44,7 @@ type Props = {
   description: string
   url: string
 }
+
 const Thumbnail = ({ title, description, url }: Props) => (
   <div className='group relative rounded-xl border border-slate-200 dark:border-slate-800'>
     <div className='absolute -inset-px rounded-xl border-2 border-transparent opacity-0 [background:linear-gradient(var(--quick-links-hover-bg,theme(colors.sky.50)),var(--quick-links-hover-bg,theme(colors.sky.50)))_padding-box,linear-gradient(to_top,theme(colors.indigo.400),theme(colors.cyan.400),theme(colors.sky.500))_border-box] group-hover:opacity-100 dark:[--quick-links-hover-bg:theme(colors.slate.800)]'></div>
@@ -107,7 +109,7 @@ const Thumbnail = ({ title, description, url }: Props) => (
   </div>
 )
 
-export default function LearnPage() {
+export default function LearnMainPage() {
   return (
     <main className='mx-auto max-w-screen-md'>
       <LearnPageTitle>Learn with Victor</LearnPageTitle>

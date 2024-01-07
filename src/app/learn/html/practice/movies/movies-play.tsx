@@ -1,3 +1,3 @@
 export const MoviesPlay = () => {
-  return <div>MoviesPlay</div>
+  return <div>Write your semantic HTML here</div>
 }

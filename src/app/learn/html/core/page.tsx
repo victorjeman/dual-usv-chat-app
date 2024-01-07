@@ -1,23 +1,20 @@
-import { Elements } from '@/app/learn/html/core/elements/elements '
-import { Forms } from '@/app/learn/html/core/forms/forms '
-import { Semantic } from '@/app/learn/html/core/semantic/semantic '
-import { Tables } from '@/app/learn/html/core/tables/tables '
-import { LearnPageTitle } from '@/app/learn/learn-components/learn-page-title '
+import { LearnPageTitle } from '@/app/learn/learn-components/learn-page-title'
+import { LearnPage } from '@/app/learn/learn-components/learn-page'
+import { Elements } from '@/app/learn/html/core/elements/elements'
+import { Forms } from '@/app/learn/html/core/forms/forms'
+import { Semantics } from '@/app/learn/html/core/semantics/semantics'
+import { Tables } from '@/app/learn/html/core/tables/tables'
 
 export default function CoreHtmlPage() {
   return (
-    <section>
-      <LearnPageTitle>Learn with Victor - HTML - Core concepts</LearnPageTitle>
+    <LearnPage title='HTML - Core concepts'>
+      <Elements />
 
-      <div className='[&>*:nth-child(2n)]:bg-gray-100'>
-        <Elements />
+      <Tables />
 
-        <Tables />
+      <Forms />
 
-        <Forms />
-
-        <Semantic />
-      </div>
-    </section>
+      <Semantics />
+    </LearnPage>
   )
 }

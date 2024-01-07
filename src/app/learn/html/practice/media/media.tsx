@@ -1,14 +1,14 @@
-import { LearnSection } from '@/app/learn/learn-components/learn-section '
-import { LearnImage } from '@/app/learn/learn-components/learn-image '
+import { LearnSection } from '@/app/learn/learn-components/learn-section'
+import { LearnImage } from '@/app/learn/learn-components/learn-image'
+import { LearnPlayground } from '@/app/learn/learn-components/learn-playground'
+import { MediaPlay } from '@/app/learn/html/practice/media/media-play'
 
-import mediaDesignImg from './media.png'
-import { LearnPlayground } from '@/app/learn/learn-components/learn-playground '
-import { MediaPlay } from '@/app/learn/html/practice/media/media-play '
+import designImg from './media.png'
 
 export const Media = () => {
   return (
     <LearnSection>
-      <LearnImage src={mediaDesignImg} />
+      <LearnImage src={designImg} />
 
       <LearnPlayground>
         <MediaPlay />

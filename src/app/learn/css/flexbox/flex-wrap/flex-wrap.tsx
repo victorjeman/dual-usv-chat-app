@@ -1,8 +1,8 @@
-import { LearnSection } from '@/app/learn/learn-components/learn-section '
-import { LearnImage } from '@/app/learn/learn-components/learn-image '
-import { LearnSectionTitle } from '@/app/learn/learn-components/learn-section-title '
-import { LearnPlayground } from '@/app/learn/learn-components/learn-playground '
-import { FlexWrapPlay } from '@/app/learn/css/flexbox/flex-wrap/flex-wrap-play '
+import { LearnSection } from '@/app/learn/learn-components/learn-section'
+import { LearnImage } from '@/app/learn/learn-components/learn-image'
+import { LearnSectionTitle } from '@/app/learn/learn-components/learn-section-title'
+import { LearnPlayground } from '@/app/learn/learn-components/learn-playground'
+import { FlexWrapPlay } from '@/app/learn/css/flexbox/flex-wrap/flex-wrap-play'
 
 import learnImg from './flex-wrap.png'
 

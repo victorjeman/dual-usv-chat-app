@@ -1,3 +1,3 @@
 export const MediaPlay = () => {
-  return <div>MediaPlay</div>
+  return <div>Write your semantic HTML here</div>
 }

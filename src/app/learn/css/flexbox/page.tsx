@@ -1,20 +1,18 @@
-import { Flexbox } from '@/app/learn/css/flexbox/flexbox/flexbox '
-import { FlexDirection } from '@/app/learn/css/flexbox/flex-direction/flex-direction '
-import { FlexWrap } from '@/app/learn/css/flexbox/flex-wrap/flex-wrap '
-import { LearnPageTitle } from '@/app/learn/learn-components/learn-page-title '
-import { AlignItems } from '@/app/learn/css/flexbox/align-items/align-items '
-import { JustifyContent } from '@/app/learn/css/flexbox/justify-content/justify-content '
+import { LearnPage } from '@/app/learn/learn-components/learn-page'
+import { Flexbox } from '@/app/learn/css/flexbox/flexbox/flexbox'
+import { FlexDirection } from '@/app/learn/css/flexbox/flex-direction/flex-direction'
+import { FlexWrap } from '@/app/learn/css/flexbox/flex-wrap/flex-wrap'
+import { AlignItems } from '@/app/learn/css/flexbox/align-items/align-items'
+import { JustifyContent } from '@/app/learn/css/flexbox/justify-content/justify-content'
 
-export default function LayoutPage() {
+export default function CssFlexboxPage() {
   return (
-    <section>
-      <LearnPageTitle>Learn with Victor - CSS - Flexbox</LearnPageTitle>
-
+    <LearnPage title='CSS - Flexbox'>
       <Flexbox />
       <FlexDirection />
       <FlexWrap />
       <AlignItems />
       <JustifyContent />
-    </section>
+    </LearnPage>
   )
 }

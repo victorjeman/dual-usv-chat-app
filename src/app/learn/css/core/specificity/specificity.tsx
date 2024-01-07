@@ -1,15 +1,8 @@
-import { LearnSection } from '@/app/learn/learn-components/learn-section '
-import { LearnSectionTitle } from '@/app/learn/learn-components/learn-section-title '
-import { LearnImage } from '@/app/learn/learn-components/learn-image '
-import { LearnResources } from '@/app/learn/learn-components/learn-resources '
-import { LearnPlayground } from '@/app/learn/learn-components/learn-playground '
+import { LearnSection } from '@/app/learn/learn-components/learn-section'
+import { LearnSectionTitle } from '@/app/learn/learn-components/learn-section-title'
+import { LearnImage } from '@/app/learn/learn-components/learn-image'
 
 import learnImg from './specificity.png'
-
-const resources = [
-  { title: 'Specificity | web.dev', href: 'https://web.dev/learn/css/specificity' },
-  { title: 'Specificity Calculator', href: 'https://specificity.keegan.st/' },
-]
 
 export const Specificity = () => {
   return (
@@ -17,11 +10,6 @@ export const Specificity = () => {
       <LearnSectionTitle>Specificity</LearnSectionTitle>
 
       <LearnImage src={learnImg} />
-
-      {/* <LearnPlayground>
-      </LearnPlayground> */}
-
-      <LearnResources resources={resources} />
     </LearnSection>
   )
 }
