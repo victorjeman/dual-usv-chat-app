@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Space_Grotesk } from 'next/font/google'
 import { MantineProvider, ColorSchemeScript } from '@mantine/core'
 import { theme } from '../theme'
 
@@ -7,6 +7,8 @@ import './globals.css'
 import '@mantine/core/styles.css'
 
 const inter = Inter({ subsets: ['latin'] })
+
+const grotesk = Space_Grotesk({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Learn Front-End with Victor Jeman',
@@ -25,7 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
 
-      <body className={inter.className}>
+      <body className={(inter.className, grotesk.className)}>
         <MantineProvider theme={theme}>
           <main>{children}</main>
         </MantineProvider>
