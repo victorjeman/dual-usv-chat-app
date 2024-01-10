@@ -1,5 +1,6 @@
 .article {
   font-family: 'Space Grotesk', sans-serif;
+  height: 3000px;
 
   --book-size: 20rem;
 
@@ -28,26 +29,51 @@
 }
 
 .bgGrey {
+  background-color: var(--color-gray-1);
+  padding-bottom: 3rem;
 }
 
 // BOOK
 .bookContainer {
+  padding-top: var(--space-5);
+  position: relative;
+  margin-bottom: 5rem;
 }
 
 .bookBg {
+  top: 0;
+  bottom: -3rem;
+  width: 50%;
+  background-color: var(--color-blue-3);
+  position: absolute;
 }
 
 .bookImg {
+  height: var(--book-size);
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 10;
+  position: relative;
 }
 
 .mainQuote {
+  text-align: center;
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 // STARS
 .mainQuoteStars {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .mainQuoteStar {
+  // display: inline-block;
+  width: var(--star-size);
+  fill: var(--color-blue-3);
 }
 
 .mainQuoteText {
@@ -86,9 +112,24 @@
 // NAVIGATION
 
 .navigation {
+  margin-top: 3rem;
+  display: flex;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 10px;
 }
 
 .navigationItem {
+  flex-grow: 1;
+  display: flex;
+  background-color: gray;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+
+  &:hover {
+    background-color: var(--color-blue-3);
+  }
 }
 
 .navigationLink {

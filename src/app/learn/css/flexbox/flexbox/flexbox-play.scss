@@ -1,6 +1,7 @@
-.flexbox {
+.flexbox-play {
   .my-grid {
-    // display: flex;
+    display: flex;
+    flex-direction: row;
     // gap: 10px;
     text-align: center;
     min-height: 300px;
